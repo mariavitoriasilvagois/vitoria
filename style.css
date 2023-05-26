@@ -45,6 +45,13 @@
     }
 
     .principal-aviso{
-        font-sie: 14px;
+        font-size: 14px;
         color:var(--cinza-secundario);
+    }
+    .principal-imagem{
+        margin: 16px 0 32px 0;
+    }
+
+    .principal-caixa{
+        margin: 0 96px;
     }
