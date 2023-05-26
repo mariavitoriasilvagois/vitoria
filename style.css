@@ -3,16 +3,36 @@
     --cinza-secundario: #c0c0c0;
     --botao-azul: #167bf7;
     --cor-de-fundo: #00030c;
-}
-
-body {
-    background: var(--cor-de-fundo);
+    }
+    
+    body {
+    background-color: var(--cor-de-fundo);
     color: var(--branco-principal);
-}
-
-.principal{
+    }
+    
+    .principal{
     background-image: url("Background.png");
     background-size: contain;
     background-repeat: no-repeat;
     height: 100vh;
-}
+    display: grid;
+    grid-template-columns: 50% 50%;
+    }
+    
+    .principal-botao {
+    background-color: var(--botao-azul);
+    color: var(--branco-principal);
+    border-radius: 5px;
+    padding: 16px;
+    text-decoration: none;
+    display:block;
+    }
+    .principal-botao-2 {
+    background-color: transparent;
+    border: 1px solid var(--branco-principal);
+    color: var(--branco-principal);
+    border-radius: 5px;
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+    }
