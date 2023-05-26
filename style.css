@@ -3,6 +3,8 @@
     --cinza-secundario: #c0c0c0;
     --botao-azul: #167bf7;
     --cor-de-fundo: #00030c;
+    --fonte-principal:'Inter';
+
     }
     
     body {
@@ -35,4 +37,14 @@
     padding: 16px;
     text-decoration: none;
     display: block;
+    }
+
+    .principal-titulo{
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .principal-aviso{
+        font-sie: 14px;
+        color:var(--cinza-secundario);
     }
