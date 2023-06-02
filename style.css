@@ -75,3 +75,8 @@
     .secundaria-imagem{
         width: 80%;
     }
+
+    .secundaria-titulo{
+        font-weight: 700;
+        font-size: 48px;
+    }
